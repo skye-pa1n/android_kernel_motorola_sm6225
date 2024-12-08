@@ -590,6 +590,7 @@ config ADSPRPC_DEBUG
 
 config MSM_RDBG
 	tristate "QTI Remote debug driver"
+        default y
 	help
 	Implements a shared memory based transport mechanism that allows
 	for a debugger running on a host PC to communicate with a remote
